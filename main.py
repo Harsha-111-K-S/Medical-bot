@@ -6,7 +6,7 @@ from langchain.indexes import VectorstoreIndexCreator
 from langchain.document_loaders import TextLoader
 import os
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "Add your openAI key"
 
 
 def generate_vector_db():
